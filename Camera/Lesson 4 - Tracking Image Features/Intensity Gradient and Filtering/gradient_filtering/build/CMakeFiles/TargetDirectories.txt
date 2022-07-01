@@ -1,5 +1,5 @@
-/home/raj/Documents/SensorFusion NanoDegree/Projects/SFND_Camera-master/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build/CMakeFiles/rebuild_cache.dir
-/home/raj/Documents/SensorFusion NanoDegree/Projects/SFND_Camera-master/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build/CMakeFiles/edit_cache.dir
-/home/raj/Documents/SensorFusion NanoDegree/Projects/SFND_Camera-master/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build/CMakeFiles/magnitude_sobel.dir
-/home/raj/Documents/SensorFusion NanoDegree/Projects/SFND_Camera-master/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build/CMakeFiles/gradient_sobel.dir
-/home/raj/Documents/SensorFusion NanoDegree/Projects/SFND_Camera-master/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build/CMakeFiles/gaussian_smoothing.dir
+/home/raj/My_Projects/SensorFusion/Camera/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build/CMakeFiles/rebuild_cache.dir
+/home/raj/My_Projects/SensorFusion/Camera/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build/CMakeFiles/edit_cache.dir
+/home/raj/My_Projects/SensorFusion/Camera/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build/CMakeFiles/magnitude_sobel.dir
+/home/raj/My_Projects/SensorFusion/Camera/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build/CMakeFiles/gradient_sobel.dir
+/home/raj/My_Projects/SensorFusion/Camera/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build/CMakeFiles/gaussian_smoothing.dir

@@ -63,10 +63,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/raj/Documents/SensorFusion NanoDegree/Projects/SFND_Camera-master/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering"
+CMAKE_SOURCE_DIR = "/home/raj/My_Projects/SensorFusion/Camera/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/raj/Documents/SensorFusion NanoDegree/Projects/SFND_Camera-master/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build"
+CMAKE_BINARY_DIR = "/home/raj/My_Projects/SensorFusion/Camera/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -97,14 +97,14 @@ clean: CMakeFiles/gaussian_smoothing.dir/clean
 CMakeFiles/magnitude_sobel.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/magnitude_sobel.dir/build.make CMakeFiles/magnitude_sobel.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/magnitude_sobel.dir/build.make CMakeFiles/magnitude_sobel.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/raj/Documents/SensorFusion NanoDegree/Projects/SFND_Camera-master/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build/CMakeFiles" --progress-num=5,6 "Built target magnitude_sobel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/raj/My_Projects/SensorFusion/Camera/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build/CMakeFiles" --progress-num=5,6 "Built target magnitude_sobel"
 .PHONY : CMakeFiles/magnitude_sobel.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/magnitude_sobel.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/raj/Documents/SensorFusion NanoDegree/Projects/SFND_Camera-master/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/raj/My_Projects/SensorFusion/Camera/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build/CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/magnitude_sobel.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/raj/Documents/SensorFusion NanoDegree/Projects/SFND_Camera-master/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/raj/My_Projects/SensorFusion/Camera/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build/CMakeFiles" 0
 .PHONY : CMakeFiles/magnitude_sobel.dir/rule
 
 # Convenience name for target.
@@ -124,14 +124,14 @@ CMakeFiles/magnitude_sobel.dir/clean:
 CMakeFiles/gradient_sobel.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gradient_sobel.dir/build.make CMakeFiles/gradient_sobel.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gradient_sobel.dir/build.make CMakeFiles/gradient_sobel.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/raj/Documents/SensorFusion NanoDegree/Projects/SFND_Camera-master/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build/CMakeFiles" --progress-num=3,4 "Built target gradient_sobel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/raj/My_Projects/SensorFusion/Camera/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build/CMakeFiles" --progress-num=3,4 "Built target gradient_sobel"
 .PHONY : CMakeFiles/gradient_sobel.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/gradient_sobel.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/raj/Documents/SensorFusion NanoDegree/Projects/SFND_Camera-master/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/raj/My_Projects/SensorFusion/Camera/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build/CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/gradient_sobel.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/raj/Documents/SensorFusion NanoDegree/Projects/SFND_Camera-master/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/raj/My_Projects/SensorFusion/Camera/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build/CMakeFiles" 0
 .PHONY : CMakeFiles/gradient_sobel.dir/rule
 
 # Convenience name for target.
@@ -151,14 +151,14 @@ CMakeFiles/gradient_sobel.dir/clean:
 CMakeFiles/gaussian_smoothing.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gaussian_smoothing.dir/build.make CMakeFiles/gaussian_smoothing.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gaussian_smoothing.dir/build.make CMakeFiles/gaussian_smoothing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/raj/Documents/SensorFusion NanoDegree/Projects/SFND_Camera-master/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build/CMakeFiles" --progress-num=1,2 "Built target gaussian_smoothing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/raj/My_Projects/SensorFusion/Camera/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build/CMakeFiles" --progress-num=1,2 "Built target gaussian_smoothing"
 .PHONY : CMakeFiles/gaussian_smoothing.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/gaussian_smoothing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/raj/Documents/SensorFusion NanoDegree/Projects/SFND_Camera-master/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/raj/My_Projects/SensorFusion/Camera/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build/CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/gaussian_smoothing.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/raj/Documents/SensorFusion NanoDegree/Projects/SFND_Camera-master/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/raj/My_Projects/SensorFusion/Camera/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build/CMakeFiles" 0
 .PHONY : CMakeFiles/gaussian_smoothing.dir/rule
 
 # Convenience name for target.

@@ -1,4 +1,4 @@
-# Install script for directory: /home/raj/Documents/SensorFusion NanoDegree/Projects/SFND_Camera-master/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering
+# Install script for directory: /home/raj/My_Projects/SensorFusion/Camera/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/raj/Documents/SensorFusion NanoDegree/Projects/SFND_Camera-master/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/raj/My_Projects/SensorFusion/Camera/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

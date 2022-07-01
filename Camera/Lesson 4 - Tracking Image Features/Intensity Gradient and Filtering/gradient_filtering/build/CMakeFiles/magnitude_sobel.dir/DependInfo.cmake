@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/raj/Documents/SensorFusion NanoDegree/Projects/SFND_Camera-master/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/src/magnitude_sobel.cpp" "/home/raj/Documents/SensorFusion NanoDegree/Projects/SFND_Camera-master/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build/CMakeFiles/magnitude_sobel.dir/src/magnitude_sobel.cpp.o"
+  "/home/raj/My_Projects/SensorFusion/Camera/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/src/magnitude_sobel.cpp" "/home/raj/My_Projects/SensorFusion/Camera/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build/CMakeFiles/magnitude_sobel.dir/src/magnitude_sobel.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

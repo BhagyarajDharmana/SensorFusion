@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/raj/Documents/SensorFusion NanoDegree/Projects/SFND_Camera-master/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering"
+CMAKE_SOURCE_DIR = "/home/raj/My_Projects/SensorFusion/Camera/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/raj/Documents/SensorFusion NanoDegree/Projects/SFND_Camera-master/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build"
+CMAKE_BINARY_DIR = "/home/raj/My_Projects/SensorFusion/Camera/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/gradient_sobel.dir/depend.make
@@ -78,16 +78,16 @@ include CMakeFiles/gradient_sobel.dir/flags.make
 
 CMakeFiles/gradient_sobel.dir/src/gradient_sobel.cpp.o: CMakeFiles/gradient_sobel.dir/flags.make
 CMakeFiles/gradient_sobel.dir/src/gradient_sobel.cpp.o: ../src/gradient_sobel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/raj/Documents/SensorFusion NanoDegree/Projects/SFND_Camera-master/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gradient_sobel.dir/src/gradient_sobel.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gradient_sobel.dir/src/gradient_sobel.cpp.o -c "/home/raj/Documents/SensorFusion NanoDegree/Projects/SFND_Camera-master/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/src/gradient_sobel.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/raj/My_Projects/SensorFusion/Camera/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gradient_sobel.dir/src/gradient_sobel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gradient_sobel.dir/src/gradient_sobel.cpp.o -c "/home/raj/My_Projects/SensorFusion/Camera/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/src/gradient_sobel.cpp"
 
 CMakeFiles/gradient_sobel.dir/src/gradient_sobel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gradient_sobel.dir/src/gradient_sobel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/raj/Documents/SensorFusion NanoDegree/Projects/SFND_Camera-master/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/src/gradient_sobel.cpp" > CMakeFiles/gradient_sobel.dir/src/gradient_sobel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/raj/My_Projects/SensorFusion/Camera/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/src/gradient_sobel.cpp" > CMakeFiles/gradient_sobel.dir/src/gradient_sobel.cpp.i
 
 CMakeFiles/gradient_sobel.dir/src/gradient_sobel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gradient_sobel.dir/src/gradient_sobel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/raj/Documents/SensorFusion NanoDegree/Projects/SFND_Camera-master/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/src/gradient_sobel.cpp" -o CMakeFiles/gradient_sobel.dir/src/gradient_sobel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/raj/My_Projects/SensorFusion/Camera/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/src/gradient_sobel.cpp" -o CMakeFiles/gradient_sobel.dir/src/gradient_sobel.cpp.s
 
 # Object files for target gradient_sobel
 gradient_sobel_OBJECTS = \
@@ -114,7 +114,7 @@ gradient_sobel: /usr/local/lib/libopencv_flann.so.4.5.5
 gradient_sobel: /usr/local/lib/libopencv_imgproc.so.4.5.5
 gradient_sobel: /usr/local/lib/libopencv_core.so.4.5.5
 gradient_sobel: CMakeFiles/gradient_sobel.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/raj/Documents/SensorFusion NanoDegree/Projects/SFND_Camera-master/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable gradient_sobel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/raj/My_Projects/SensorFusion/Camera/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable gradient_sobel"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gradient_sobel.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +127,6 @@ CMakeFiles/gradient_sobel.dir/clean:
 .PHONY : CMakeFiles/gradient_sobel.dir/clean
 
 CMakeFiles/gradient_sobel.dir/depend:
-	cd "/home/raj/Documents/SensorFusion NanoDegree/Projects/SFND_Camera-master/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/raj/Documents/SensorFusion NanoDegree/Projects/SFND_Camera-master/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering" "/home/raj/Documents/SensorFusion NanoDegree/Projects/SFND_Camera-master/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering" "/home/raj/Documents/SensorFusion NanoDegree/Projects/SFND_Camera-master/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build" "/home/raj/Documents/SensorFusion NanoDegree/Projects/SFND_Camera-master/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build" "/home/raj/Documents/SensorFusion NanoDegree/Projects/SFND_Camera-master/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build/CMakeFiles/gradient_sobel.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/raj/My_Projects/SensorFusion/Camera/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/raj/My_Projects/SensorFusion/Camera/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering" "/home/raj/My_Projects/SensorFusion/Camera/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering" "/home/raj/My_Projects/SensorFusion/Camera/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build" "/home/raj/My_Projects/SensorFusion/Camera/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build" "/home/raj/My_Projects/SensorFusion/Camera/Lesson 4 - Tracking Image Features/Intensity Gradient and Filtering/gradient_filtering/build/CMakeFiles/gradient_sobel.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/gradient_sobel.dir/depend
 
