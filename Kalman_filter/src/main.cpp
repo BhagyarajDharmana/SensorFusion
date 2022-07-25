@@ -1,4 +1,4 @@
-/* \author Aaron Brown */
+/* \author Bhagyaraj Dharmana */
 // Create simple 3d highway enviroment using PCL
 // for exploring self-driving car sensors
 
